@@ -1,0 +1,20 @@
+# Supabase Configuration for auto_detailspage project
+project_id = "skmyplfwwxhsanbkpdmd"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+major_version = 15
+
+[realtime]
+enabled = true
+max_bytes_per_second = 1000000
+
+[storage]
+file_size_limit = 52428800
+
+[auth]
+enabled = true
